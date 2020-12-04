@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.sec-nav {
+ display: flex;
+ justify-content: space-between;
+ font-family: Roboto;
+ font-size: 14px;
+ font-weight: 700;
+ line-height: 17px;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 15px 0;
+ border-bottom: 3px solid #3BD100;
+}
+
+.pri-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.pri-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.pri-nav ul li {
+    margin-right: 30px;
+}
+
+.pri-nav ul li:first-child {
+    margin-right: 150px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header a:hover {
+    color: #3BD100;
+}
+
+/* ANCHOR Banner CSS */
+
+.banner img {
+    display: block;
+    max-width: 100%;
+}
+
+.banner figure {
+    position: relative;
+}
+
+.banner figcaption {
+    max-width: 520px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 30px;
+    font-size: 32px;
+    line-height: 64px;
+    text-align: center;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Work Sans;
+}
